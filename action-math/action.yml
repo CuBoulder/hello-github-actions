@@ -1,0 +1,22 @@
+name: An action to add two numbers
+author: Jesus Ortiz
+description: 'Action that adds two numbers'
+inputs:
+  name:
+    description: 'Your name'
+    required: false
+    default: 'Jesus'
+  first_number:
+    description: 'First Number to add'
+    required: true
+    default: '2'
+  second_number:
+    description: 'Second Number to add'
+    required: true
+    default: '3'
+runs:
+  using: 'node12'
+  main: 'main.js'
+branding:
+  color: 'green'
+  icon: 'send'
