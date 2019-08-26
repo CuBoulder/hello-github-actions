@@ -1,4 +1,4 @@
-# !/bin/sh -l
+# !/bin/bash
 
 echo Hello world my name is $MY_NAME
 sudo apt update
